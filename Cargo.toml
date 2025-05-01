@@ -1,0 +1,9 @@
+[package]
+name = "tracerouter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+local-ip-address = "0.5.0"
+dns-lookup = "2.0.4"
+socket2 = { version = "0.5", features = ["all"] }
