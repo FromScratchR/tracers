@@ -67,7 +67,7 @@ pub fn parse_sender_ip(ip: &[u8]) -> String {
         str_ip += &(ip[i].to_string() + ".");
     }
 
-    // Remove last . for ip
+    // Remove last '.'
     str_ip.pop();
 
     str_ip
