@@ -89,7 +89,7 @@ mod tests {
 
     #[test]
     fn odd_checksum() {
-        // Same as above but with additional 0x23 on final.
+        // Same as above but with additional 0x23 on final (ICMP extra data).
         let buf: [u8; 9] = [0x08, 0x00, 0x00, 0x00, 0x12, 0x34, 0x00, 0x01, 0x23];
         let result: u16 = 0xC2CA;
 
