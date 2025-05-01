@@ -135,7 +135,6 @@ fn main() -> std::io::Result<()> {
             };
         }
     }
-    // dbg!(packet);
 
     Ok(())
 }
