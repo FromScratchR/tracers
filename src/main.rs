@@ -120,6 +120,7 @@ fn main() -> std::io::Result<()> {
                     if icmp_type == 11 {
                         println!("TTL: {ttl} on {received_ip}\n");
 
+                        // Adjust by your flavor
                         std::thread::sleep(Duration::from_secs(1));
                         continue;
                     }
